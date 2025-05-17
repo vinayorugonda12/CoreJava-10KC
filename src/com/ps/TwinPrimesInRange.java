@@ -29,7 +29,7 @@ public class TwinPrimesInRange {
 	}
 
 	public static void main(String[] args) {
-		twinPrimes(20);
+		twinPrimes(50);
 
 	}
 
