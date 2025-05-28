@@ -6,7 +6,9 @@ public class BankAccount {
 	
 	private long accountNumber;
 	private  String ifscCode;
+	
 	private double balance=1000;
+	
 	private String initial;
 	private String fName;
 	private String lName;

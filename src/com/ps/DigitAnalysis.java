@@ -1,9 +1,7 @@
 package com.ps;
 
 public class DigitAnalysis {
-
-	// TODO Auto-generated method stub
-
+	
 	public void digitAnalysis(int n) {
 		int num = n;
 		int evenSum = 0;

@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class MainBank {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		
 		Scanner sc=new Scanner(System.in);
 		BankAccount bank1= new BankAccount(1234567890, "SBIN0RRDCGB", 20000, "O", "vinay", "Orugonda", "savings", 1234567890, "bank@gmail.com", 500043,630914);
 		System.out.println("WELCOME To Bank!!!!");
