@@ -4,9 +4,9 @@ public class SunnyNumber {
 
 	public void sunnyNumber(int n) {
 		if (n >= 0) {
-			
+
 			long sqrt = (long) Math.sqrt(n + 1);
-			
+
 //			System.out.println(sqrt);
 			if (sqrt * sqrt == n + 1) {
 				System.out.println("sunny number");
@@ -14,7 +14,9 @@ public class SunnyNumber {
 				System.out.println("not sunny number");
 			}
 
-		} else {
+		}
+
+		else {
 			System.out.println("negative input");
 		}
 
@@ -24,7 +26,7 @@ public class SunnyNumber {
 		// TODO Auto-generated method stub
 		SunnyNumber s = new SunnyNumber();
 		s.sunnyNumber(11);
-	
+
 	}
 
 }
